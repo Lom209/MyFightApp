@@ -1,0 +1,31 @@
+.header-container {
+    display: grid;
+    grid-template-columns: auto 250px;
+    grid-template-areas:
+    "alert headerlogo";
+}
+
+.alertcontainer {
+  grid-area: alert;
+  border: 2px;
+  border-radius: 25px;
+  border-style: solid;
+  color: white;
+  border-color: black;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 200%;
+  text-align: center;
+  background-color: #9197AE;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow:
+  -1.5px -1.5px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px #000,
+  1px 1px #000;
+}
+
+
+.logocontainer {
+  grid-area: headerlogo;
+}

@@ -1,0 +1,16 @@
+.websitelinksContainer {
+  display: grid;
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px;
+  grid-template-areas:
+  "bloodyelbow mmafighting mmamania mmajunkie";
+}
+
+.bloodyelbow {
+grid-area: bloodyelbow;
+height: 20%;
+width: 50%;
+}

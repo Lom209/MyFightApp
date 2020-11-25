@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+.main-body {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 450px 726px;
+    grid-template-areas:
+    "org-container main-content";
+}
+
+.main-body .main-content {
+    grid-area: main-content;
+    background-color: #A6E1FA;
+    border-style: solid;
+    border-color: black;
+    color: white;
+    text-shadow:
+    -1.5px -1.5px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px #000,
+    1px 1px #000;
+}
+
+
+.main-body .org-container {
+    grid-area: org-container;
+    display: grid;
+    grid-gap: 10px;
+    justify-content: left;
+    grid-template-columns: 450px;
+    grid-template-areas:
+    "ufc-header"
+    "bellator-header"
+    "cage-warriors-header"
+    "one-fc-header"
+    "glory-header"
+    "pfl-header";
+}
+
+
+.org-container .ufc-logo {
+    grid-area: ufc-header;
+    border-radius: 25px;
+    border: 2px;
+    padding: 10px;
+    border-style: solid;
+    color: white;
+    border-color: black;
+    font-size: 300%;
+    text-align: center;
+    background-color: #A6E1FA;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Bungee Inline', cursive;
+    text-shadow:
+    -1.5px -1.5px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px #000,
+    1px 1px #000;
+}
+.org-container .bellator-logo {
+    grid-area: bellator-header;
+    border: 2px;
+    border-radius: 25px;
+    padding: 10px;
+    border-style: solid;
+    color: white;
+    border-color: black;
+    font-size: 300%;
+    text-align: center;
+    background-color: #A6E1FA;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Bungee Inline', cursive;
+    text-shadow:
+    -1.5px -1.5px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px #000,
+    1px 1px #000;
+}
+
+.org-container .cage-warriors-logo {
+    grid-area: cage-warriors-header;
+    border: 2px;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 300%;
+    border-style: solid;
+    color: white;
+    border-color: black;
+    text-align: center;
+    background-color: #A6E1FA;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Bungee Inline', cursive;
+    text-shadow:
+    -1.5px -1.5px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px #000,
+    1px 1px #000;
+}
+.org-container .one-fc-logo {
+    grid-area: one-fc-header;
+    border-radius: 25px;
+    border: 2px;
+    padding: 10px;
+    border-style: solid;
+    color: white;
+    border-color: black;
+    font-size: 300%;
+    text-align: center;
+    background-color: #A6E1FA;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Bungee Inline', cursive;
+    text-shadow:
+    -1.5px -1.5px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px #000,
+    1px 1px #000;
+}
+.org-container .glory-logo {
+    grid-area: glory-header;
+    border-radius: 25px;
+    border: 2px;
+    padding: 10px;
+    border-style: solid;
+    color: white;
+    border-color: black;
+    font-size: 300%;
+    text-align: center;
+    background-color: #A6E1FA;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Bungee Inline', cursive;
+    text-shadow:
+    -1.5px -1.5px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px #000,
+    1px 1px #000;
+}
+.org-container .pfl-logo {
+    grid-area: pfl-header;
+    border-radius: 25px;
+    border: 2px;
+    padding: 10px;
+    border-style: solid;
+    color: white;
+    border-color: black;
+    font-size: 300%;
+    text-align: center;
+    background-color: #A6E1FA;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Bungee Inline', cursive;
+    text-shadow:
+    -1.5px -1.5px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px #000,
+    1px 1px #000;
+}
